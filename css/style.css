@@ -1,0 +1,65 @@
+body{
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+    background-position-x: -350px, 700px;
+    background-position-y: -600px, 300px;
+    background-repeat: no-repeat;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.card-container{
+    width: 30%;
+    text-align: center;
+    margin: 60px auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.image-victor{
+    border-radius: 100%;
+    border: 5px solid white;
+}
+
+.body{
+    position: relative;
+    bottom: 45px;
+}
+
+.middle-p{
+    width: 40%;
+    margin: 15px auto;
+    line-height: 2;
+    font-weight: 700;
+}
+
+hr{
+    border-style: none;
+    border-top: 1px solid hsl(0, 0%, 59%);
+}
+
+.bottom-p{
+    display: inline-block;
+    width: 15%;
+    margin: 15px 15px 0px 20px;
+    line-height: 1.5;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.bottom{
+    position: relative;
+    bottom:50px
+}
+
+span{
+    color: hsl(0, 0%, 59%);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.top-image{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
