@@ -1,6 +1,6 @@
 # Frontend Mentor - Profile card component
 
-<p><b>You can see my solution:</b> https://brknce.github.io/profile_card/</p>
+<p><b>You can see my solution:</b> https://brknce.github.io/profile-card-component/</p>
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
 
