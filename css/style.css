@@ -1,65 +1,86 @@
-body{
-    font-size: 18px;
-    font-family: 'Kumbh Sans', sans-serif;
-    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
-    background-position-x: -350px, 700px;
-    background-position-y: -600px, 300px;
-    background-repeat: no-repeat;
-    background-color: hsl(185, 75%, 39%);
+body {
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: url("../images/bg-pattern-top.svg"),
+    url("../images/bg-pattern-bottom.svg");
+  background-position-x: -350px, 700px;
+  background-position-y: -600px, 300px;
+  background-repeat: no-repeat;
+  background-color: hsl(185, 75%, 39%);
 }
 
-.card-container{
-    width: 30%;
-    text-align: center;
-    margin: 60px auto;
+.profile-card-body{
     background-color: white;
-    border-radius: 15px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
-.image-victor{
-    border-radius: 100%;
-    border: 5px solid white;
+.attribution {
+  font-size: 11px;
+  text-align: center;
 }
 
-.body{
+.attribution a {
+  color: #e1e8ee;
+}
+
+.profile-card{
+    border-radius: 10px;
     position: relative;
-    bottom: 45px;
+    text-align: center;
+    width: 350px;
+    padding-top: 150px;
+    margin: 5%  auto auto;
+    background-image: url("../images/bg-pattern-card.svg");
 }
 
-.middle-p{
-    width: 40%;
-    margin: 15px auto;
-    line-height: 2;
-    font-weight: 700;
+.profile-card-info{
+    padding-top: 70px;
+    padding-bottom: 20px;
 }
 
-hr{
+.profile-card-footer {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
     border-style: none;
-    border-top: 1px solid hsl(0, 0%, 59%);
+    border-top-style: solid;
+    border-top-color: hsl(0, 0%, 59%);
+    border-top-width: thin;
+    padding: 20px 10px 20px 10px;
 }
 
-.bottom-p{
-    display: inline-block;
-    width: 15%;
-    margin: 15px 15px 0px 20px;
-    line-height: 1.5;
+.footer-stats{
     font-weight: 700;
     color: hsl(229, 23%, 23%);
 }
 
-.bottom{
-    position: relative;
-    bottom:50px
-}
-
-span{
-    color: hsl(0, 0%, 59%);
-    font-size: 14px;
+.footer-name{
     font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
 }
 
-.top-image{
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+.info-name{
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.info-age{
+    color: hsl(0, 0%, 59%);
+}
+
+.info-city{
+    font-size: 14px;
+    color: hsl(0, 0%, 59%);
+}
+
+.profile-image{
+    border-radius: 100%;
+    box-sizing: border-box;
+    border: 5px solid white;
+    position: absolute;
+    top: 100px;
+    left: 125px;
+    width: 100px;
 }
